@@ -1,0 +1,26 @@
+{
+  "name": "api-doc-swagger",
+  "version": "1.0.0",
+  "description": "Node.js API Documentation using Swagger",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhananjayThomble/api-doc-swagger.git"
+  },
+  "keywords": ["swagger", "api", "documentation", "nodejs"],
+  "author": "Dhananjay Thomble",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DhananjayThomble/api-doc-swagger/issues"
+  },
+  "homepage": "https://github.com/DhananjayThomble/api-doc-swagger#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "swagger-ui-express": "^4.6.0",
+    "yamljs": "^0.3.0"
+  }
+}
